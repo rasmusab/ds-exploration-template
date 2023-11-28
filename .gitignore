@@ -1,0 +1,47 @@
+# MacOS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.DS_Store
+
+# Data files that we shouldn't always commit. If you want to include any of
+# these in a sub-folder, just add a .gitignore with ,say, !*.csv in that folder
+# to include csv files again.
+*.csv
+*.json
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.tmp
+*.parquet
+*.gz
+
+# R-files to ignore
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+*.Rproj
+.Rproj.user
+
+# python files to ignore
+__pycache__/
+.venv
+venv
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Libre Office
+.~lock.*
+
+# misc 
+.idea
+
+# vim
+*.swp
+
+# env files
+*.env
